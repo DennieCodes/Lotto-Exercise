@@ -1,0 +1,27 @@
+.Lottery {
+  margin-left: 35%;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 250px;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.Lottery-balls {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.Lottery-button {
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.25rem;
+  color: white;
+  background-color: darkblue;
+}
