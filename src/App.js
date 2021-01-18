@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Lottery from './Lottery.js';
 
-class App extends Component {
-  render() {
+const App = () =>  {
     return (
       <div className="App">
         <Lottery title="Lotto" numBalls={6} maxNum={40} />
@@ -11,7 +10,6 @@ class App extends Component {
         <Lottery title="Daily" numBalls={4} maxNum={20} />
       </div>
     );
-  }
 }
 
 export default App;

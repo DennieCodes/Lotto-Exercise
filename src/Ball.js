@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Ball.css';
 
-class Ball extends Component {
-  render() {
+const Ball = (props) =>  {
     return (
       <div className="Ball">
-        <p className="Ball-number">{this.props.number}</p>
+        <p className="Ball-number">{props.number}</p>
       </div>
     )
-  }
 }
 
 export default Ball;
